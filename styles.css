@@ -24,9 +24,26 @@ p {
   text-align: center;
 }
 
+img[src*="marge"] {
+  width: 59px;
+}
+
+img[src*="homer"] {
+
+}
+
+img[src*="bart"] {
+
+}
+
+img[src*="lisa"] {
+  
+}
+
 @media screen and (min-width: 800px) {
   ul {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   li {
